@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.classes-cards {
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    flex-wrap: nowrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 2%;
+    height: 280px;
+    width: 280px;    
+}
+
+.card img {        
+    width: 80px;
+    border-radius: 100%;
+    position: relative;
+    left: 195px;
+    bottom: 70px;
+}
+.card:hover{
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+transition: .3s linear;
+}
+.card1{
+    background-image: url(https://www.gstatic.com/classroom/themes/img_learnlanguage.jpg);
+    background-size: contain ;
+    background-repeat: no-repeat;
+}
+.card2{
+    background-image: url(https://www.gstatic.com/classroom/themes/img_code.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card3{
+    background-image: url(https://lh3.googleusercontent.com/hr_crs_themes/ACP_IjE5YVWoC0RIPwRdv4Gd8FfaeM5pWVz3sLO2HexjTh5aOWn6d_plNoApckzrWONj_XAf2v-SDIOEALx7_gPh-CEjoAsBdus9kU5NC4tSQOw4pCN6q4WqKg=s1280);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section.card-descriptions {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;   
+    height: 120px;   
+}
+.card-descriptions h3, .card-descriptions p{
+    color: white;
+}
+.card-descriptions i{
+    margin-left: 30px;
+}
+.icons {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding: 20px;
+    border-top: 1px solid rgb(209, 209, 209);
+}
+.icons i{
+    font-size: 20px;
+}
