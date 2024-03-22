@@ -165,6 +165,10 @@ section.card-descriptions {
 .icons i{
     font-size: 20px;
 }
+main{
+    display: flex;
+    
+}
 *{
     margin: 0;
     padding: 0;
@@ -174,7 +178,7 @@ section.card-descriptions {
     font-size: 16px;
     color: #3c4043;
     font-family: "Google Sans","Roboto",Arial,sans-serif;
-    padding: 61px 0px;
+    padding: 9px 0px;
 }
 .contenedor{
     width: 310px;
